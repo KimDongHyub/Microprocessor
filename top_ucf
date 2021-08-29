@@ -1,0 +1,20 @@
+NET "Button[3]" LOC = Y16;
+NET "Button[2]" LOC = K19;
+NET "Button[1]" LOC = P16;
+NET "Button[0]" LOC = K18;
+NET "LED[3]" LOC = D18;
+NET "LED[2]" LOC = G14;
+NET "LED[1]" LOC = M15;
+NET "LED[0]" LOC = M14;
+NET "seg_enable[1]" LOC = H15; NET "seg_enable[0]" LOC = T10; NET "segment0[6]" LOC = J15; NET "segment0[5]" LOC = W16; NET "segment0[4]" LOC = V12; NET "segment0[3]" LOC = R14; NET "segment0[2]" LOC = P14; NET "segment0[1]" LOC = T15; NET "segment0[0]" LOC = T14; NET "segment1[6]" LOC = T11; NET "segment1[5]" LOC = W15; NET "segment1[4]" LOC = V15; NET "segment1[3]" LOC = K14; NET "segment1[2]" LOC = K16; NET "segment1[1]" LOC = L14; NET "segment1[0]" LOC = N15; NET "Slide_Switch[3]" LOC = T16; NET "Slide_Switch[2]" LOC = W13;
+endmodule
+NET "Slide_Switch[1]" LOC = P15; NET "Slide_Switch[0]" LOC = G15; NET "CLK" LOC = K17;
+NET "Button[3]" IOSTANDARD = LVCMOS33;
+NET "Button[2]" IOSTANDARD = LVCMOS33;
+NET "Button[1]" IOSTANDARD = LVCMOS33;
+NET "Button[0]" IOSTANDARD = LVCMOS33;
+NET "LED[3]" IOSTANDARD = LVCMOS33;
+NET "LED[2]" IOSTANDARD = LVCMOS33;
+NET "LED[1]" IOSTANDARD = LVCMOS33;
+NET "LED[0]" IOSTANDARD = LVCMOS33;
+NET "seg_enable[1]" IOSTANDARD = LVCMOS33; NET "seg_enable[0]" IOSTANDARD = LVCMOS33; NET "segment0[6]" IOSTANDARD = LVCMOS33; NET "segment0[5]" IOSTANDARD = LVCMOS33; NET "segment0[4]" IOSTANDARD = LVCMOS33; NET "segment0[3]" IOSTANDARD = LVCMOS33; NET "segment0[2]" IOSTANDARD = LVCMOS33; NET "segment0[1]" IOSTANDARD = LVCMOS33; NET "segment0[0]" IOSTANDARD = LVCMOS33; NET "segment1[6]" IOSTANDARD = LVCMOS33; NET "segment1[5]" IOSTANDARD = LVCMOS33; NET "segment1[4]" IOSTANDARD = LVCMOS33; NET "segment1[3]" IOSTANDARD = LVCMOS33; NET "segment1[2]" IOSTANDARD = LVCMOS33; NET "segment1[1]" IOSTANDARD = LVCMOS33; NET "segment1[0]" IOSTANDARD = LVCMOS33; NET "Slide_Switch[3]" IOSTANDARD = LVCMOS33; NET "Slide_Switch[2]" IOSTANDARD = LVCMOS33; NET "Slide_Switch[1]" IOSTANDARD = LVCMOS33; NET "Slide_Switch[0]" IOSTANDARD = LVCMOS33; NET "CLK" IOSTANDARD = LVCMOS33;
