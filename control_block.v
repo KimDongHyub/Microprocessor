@@ -57,7 +57,8 @@ if (User_input1 == 4'b1000) begin State<=1;
 end
 end //Data read Mode(1) 5:begin
 Opcode <= {4'b0000,RAMread,3'b000,8'b0000,1'b0}; //임시로 저장했던 RAMread 주소의값을 출력
-if(User_input1 == 4'b0001 ) begin State<=1;
+if(User_input1 == 4'b0001 ) 
+  begin State<=1;
 end
 if (User_input1 == 4'b1000) begin
 
