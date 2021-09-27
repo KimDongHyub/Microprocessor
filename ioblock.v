@@ -46,7 +46,9 @@ unf<=1'b0;//underflow 가 0 이면 unf 는 0
 end end
 always @( pButton ) //pButton 이 바뀔때 begin
 if(ovf==1'b1 | unf==1'b1)begin //ovf 가 1 이거나 unf 가 1 이면
-LED[0]<=overclock; LED[1]<=overclock; LED[2]<=overclock;
+LED[0]<=overclock; 
+ LED[1]<=overclock; 
+ LED[2]<=overclock;
 LED[3]<=overclock; //LED 에 overclock 의 주기로 깜빡임 출력 
 User_Input1<=pButton; //User_Input1 에 pButton 의 값을 넣음
 User_Input0<=Slide_Switch; //User_Input0 에 Slide_switch 값을 넣음
